@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user flask  && falsk --app hello run"
+	"postCreateCommand": "pip3 install --user flask  && flask --app hello run"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
